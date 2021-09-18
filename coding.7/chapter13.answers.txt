@@ -1,0 +1,8 @@
+/*********************************************
+Your name: Mahmoud Amer
+Question 2: The system has 7960 megabytes of memory, 6569 megabytes of those are free. Yes these numbers match my intuition as most of the memory is free since I'm barely running any jobs.
+Question 4: the amount of used memory increases by the amount of memory i give as input to the program, and the amount of free memory decreases of course. when I kill the program, the number returns to normal as before the program ran so free memory increases. the numbers matched my expectations exactly as it increased according to the input i gave the program. when I try to use large amounts of memory, the program gives me a segmentation fault which i think is because I cant declare an array that long.
+Question 6: I used 'ps auxw' to see the list of processes and their IDs and then picked 3 process and noted down their PIDs.
+Question 7: I see a lot of addresses and their mappings in the address space for the process. There seems to be many different entities in the address space more than 5 or so.
+Question 8: I see the memory map of my program with the name of the process then libc-2.31.so then stack then vvar then vdso then vsys call and other memory information about the process. The output mostly matched my expectations, I thought it would differ more based on the input. 
+*********************************************/
